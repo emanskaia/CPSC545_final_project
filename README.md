@@ -24,6 +24,14 @@ The acquisition and processing scripts for the BindingDB dataset can be found he
 
 In the second experiment, we procured the training dataset from the open-source PDB Data - A core Dataset. Subsequently, the model was painstakingly trained until optimal performance was achieved. Detailed information concerning the training configuration and the number of training iterations are comprehensively delineated below.
 
+![image](https://github.com/emanskaia/CPSC545_final_project/assets/139388597/aefee69b-4d94-4da9-bf8f-6f7752e74c85)
+
+### Docking of the same molecular
+
+### Statistical analysis docking results and results obtained using DeepPurpose
+
+Very low linear positive correlation between model predictions and docking scores (ranking of molecules in terms of binding probability).
+
 ## Conclusion
 
 This project aims to address the challenges posed by the increasing size of chemical libraries in molecular docking. The project will contribute to the optimization of drug discovery processes and provide valuable insights into the intersection of machine learning and molecular docking.
