@@ -26,7 +26,9 @@ In the second experiment, we procured the training dataset from the open-source 
 
 ![image](https://github.com/emanskaia/CPSC545_final_project/assets/139388597/aefee69b-4d94-4da9-bf8f-6f7752e74c85)
 
-### Docking of the same molecular
+### Docking of the same dataset
+
+-----
 
 ### Statistical analysis docking results and results obtained using DeepPurpose
 
