@@ -48,7 +48,7 @@ Scripts for the acquisition and preprocessing of the BindingDB dataset can be fo
 
 ### Experiment 2. A model trained on PDB-Bind dataset
 
-In the second experiment, I procured the training dataset from the open-source PDB Data - A core Dataset. Subsequently, the model was painstakingly trained until optimal performance was achieved.  The scripts are located here [3.Train_model_on_PDB_dataset](https://github.com/emanskaia/CPSC545_final_project/blob/main/Experiment_2/3.Train_model_on_PDB_dataset.py)
+In the second experiment, I procured the training dataset from the open-source PDB Data - A core Dataset ([PDB_Training_dataset](https://github.com/emanskaia/CPSC545_final_project/blob/main/Experiment_2/PDB_Training_dataset.rar)) located in the [Experiment_2](https://github.com/emanskaia/CPSC545_final_project/tree/main/Experiment_2) folder. Subsequently, the model was painstakingly trained until optimal performance was achieved.  The scripts are located here [3.Train_model_on_PDB_dataset](https://github.com/emanskaia/CPSC545_final_project/blob/main/Experiment_2/3.Train_model_on_PDB_dataset.py)
 
 Upon achieving satisfactory results in the training phase, the model was applied to the same dataset [molecules_dataset.rar](https://github.com/emanskaia/CPSC545_final_project/blob/main/Data/molecules_dataset.rar) comprising molecular representations in the form of SMILES and protein structures represented as amino acid sequences. 
 
