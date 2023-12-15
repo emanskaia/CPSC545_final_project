@@ -17,12 +17,24 @@ Dataset for prediction: 986,970 small molecules randomly sampled from Zinc15 dat
 
 ## Set up
 
+### pip
 ``` 
 conda create -n DeepPurpose python=3.6
 conda activate DeepPurpose
 conda install -c conda-forge notebook
 pip install git+https://github.com/bp-kelley/descriptastorus 
 pip install DeepPurpose
+```
+
+### Build from source
+
+``` 
+git clone https://github.com/kexinhuang12345/DeepPurpose.git ## Download code repository
+cd DeepPurpose ## Change directory to DeepPurpose
+conda env create -f environment.yml  ## Build virtual environment with all packages installed using conda
+conda activate DeepPurpose ## Activate conda environment (use "source activate DeepPurpose" for anaconda 4.4 or earlier) 
+jupyter notebook ## open the jupyter notebook with the conda env
+conda deactivate ## when done, exit conda environment 
 ```
 
 ### Experiment 1. BindingDB dataset
