@@ -50,13 +50,31 @@ In the second experiment, we procured the training dataset from the open-source 
 
 ### Docking of the same dataset
 
------
+As a supplementary aspect of our investigation, I conducted molecular docking simulations employing the GLIDE docking software. This approach aimed to complement the neural network predictions and provide an alternative perspective on the affinity between molecules and a specific target protein. The dataset utilized for neural network training was concurrently subjected to docking simulations to facilitate a comprehensive comparison of outcomes.
 
 ### Statistical analysis docking results and results obtained using DeepPurpose
 
-Very low linear positive correlation between model predictions and docking scores (ranking of molecules in terms of binding probability).
+Following the completion of the docking simulations, the generated outcomes underwent thorough statistical assessment. The evaluation encompassed the calculation of Pearson and Spearman correlation coefficients. These coefficients were instrumental in quantifying the correlation between the predicted affinities from the neural network models and the results derived from the docking simulations. The script can be found here (statistical_analysis.py)
 
-## Conclusion
+## References
 
-This project aims to address the challenges posed by the increasing size of chemical libraries in molecular docking. The project will contribute to the optimization of drug discovery processes and provide valuable insights into the intersection of machine learning and molecular docking.
+Aittokallio, T. (2022). What are the current challenges for machine learning in drug discovery and repurposing? Expert Opinion on Drug Discovery, 17(5), 423-425. https://doi.org/10.1080/17460441.2022.2050694.
+
+Gilson, M. K., Liu, T., Baitaluk, M., Nicola, G., Hwang, L., & Chong, J. (2015). BindingDB in 2015: A public database for medicinal chemistry, computational chemistry, and systems pharmacology. Nucleic Acids Research, 44, D1045-D1053.
+
+Huang, K., Fu, T., Glass, L. M., Zitnik, M., Xiao, C., & Sun, J. (2020). DeepPurpose: A deep learning library for drug–target interaction prediction. Bioinformatics, 36(22-23), 5545-5547. https://doi.org/10.1093/bioinformatics/btaa1005.
+
+Morris, G.M., & Lim-Wilby, M. (2008). Molecular Docking. In A. Kukol (Ed.), Molecular Modeling of Proteins (Methods Molecular Biology™, Vol. 443). Humana Press. https://doi.org/10.1007/978-1-59745-177-2_19.
+
+Su, M., Yang, Q., Du, Y., Feng, G., Liu, Z., Li, Y., & Wang, R. (2019). Comparative Assessment of Scoring Functions: The CASF-2016 Update. Journal of Chemical Information and Modeling, 59, 895-913.
+
+Warr, W. A., Nicklaus, M. C., Nicolaou, C. A., & Rarey, M. (2022). Journal of Chemical Information and Modeling, 62(9), 2021-2034. https://doi.org/10.1021/acs.jcim.2c00224.
+
+@article{huang2020deeppurpose,
+  title={DeepPurpose: A Deep Learning Library for Drug-Target Interaction Prediction},
+  author={Huang, Kexin and Fu, Tianfan and Glass, Lucas M and Zitnik, Marinka and Xiao, Cao and Sun, Jimeng},
+  journal={Bioinformatics},
+  year={2020}
+}
+
 
