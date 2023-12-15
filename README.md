@@ -56,7 +56,7 @@ Detailed information concerning the training configuration and the number of tra
 
 ![image](https://github.com/emanskaia/CPSC545_final_project/assets/139388597/aefee69b-4d94-4da9-bf8f-6f7752e74c85)
 
-### Docking of the same dataset
+### Docking of the same dataset 
 
 As a supplementary aspect of our investigation, I conducted molecular docking simulations employing the GLIDE docking software. This approach aimed to complement the neural network predictions and provide an alternative perspective on the affinity between molecules and a specific target protein. The dataset utilized for neural network training was concurrently subjected to docking simulations to facilitate a comprehensive comparison of outcomes.
 
