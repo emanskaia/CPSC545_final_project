@@ -42,9 +42,9 @@ conda deactivate ## when done, exit conda environment
 ```
 
 ### Experiment 1. BindingDB dataset
-In the first experiment, I harnessed a pre-trained model sourced from the DeepPurpose repository to evaluate its performance against a vast collection of one million distinct molecular compounds in conjunction with a specified target protein. The molecular compounds, numbering in the millions, were systematically acquired from the Zinc15 database and selected through a random sampling process conducted in a prior phase of the study. This compiled dataset was denominated as "molecules_dataset."
-The acquisition and processing scripts for the BindingDB dataset can be found here 
-, while the script for executing the pre-trained model can be accessed here
+In the initial phase of Experiment 1, a pre-trained neural network model from the DeepPurpose repository was employed to assess its efficacy in predicting binding affinities across a diverse set of one million distinct molecular compounds. These compounds were systematically retrieved from the Zinc15 database through a random sampling procedure conducted in the preliminary stages of the study. This comprehensive dataset was designated as [molecules_dataset](https://github.com/emanskaia/CPSC545_final_project/blob/main/Data/molecules_dataset.rar) and is accessible in the folder [Data](https://github.com/emanskaia/CPSC545_final_project/tree/main/Data).
+
+Scripts for the acquisition and preprocessing of the BindingDB dataset can be found in the folder [Experiment 1](https://github.com/emanskaia/CPSC545_final_project/tree/main/Experiment_1) here: [1_download_and_process_data_BindingDB.py](https://github.com/emanskaia/CPSC545_final_project/blob/main/Experiment_1/1_download_and_process_data_BindingDB.py).  Additionally, the script for executing the pre-trained model is available here [2_Pretrained_model_application.py](https://github.com/emanskaia/CPSC545_final_project/blob/main/Experiment_1/2_Pretrained_model_application.py)
 
 ### Experiment 2. A model trained on PDB-Bind dataset
 
