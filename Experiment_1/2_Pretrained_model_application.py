@@ -5,9 +5,9 @@ from dataset import *
 
 #Use pretrained model for a chosen target and a chosen dataset
 net = models.model_pretrained(model = 'CNN_CNN_BindingDB')
-drug_ID, X_repurpose = dataset.read_file_repurposing_library('/home/emanskaia/Desktop/dataset_DD_original/1ERR/iteration_1/text_output.csv')
+drug_ID, X_repurpose = dataset.read_file_repurposing_library('/home/user/dataset_DD_original/1ERR/iteration_1/text_output.csv')
 
-target, target_name = dataset.read_file_target_sequence('/home/emanskaia/Desktop/dataset_DD_original/1ERR/Protein_1ERR_target_seq.txt')
+target, target_name = dataset.read_file_target_sequence('/home/user/dataset_DD_original/1ERR/Protein_1ERR_target_seq.txt')
 
 print('The target is: ' + target)
 #The target is: SKKNSLALSLTADQMVSALLDAEPPILYSEYDPTRPFSEASMMGLLTNLADRELVHMINWAKRVPGFVDLTLHDQVHLLECAWLEILMIGLVWRSMEHPGKLLFAPNLLLDRNQGKCVEGMVEIFDMLLATSSRFRMMNLQGEEFVCLKSIILLNSGVYTFLSSTLKSLEEKDHIHRVLDKITDTLIHLMAKAGLTLQQQHQRLAQLLLILSHIRHMSNKGMEHLYSMKCKNVVPLYDLLLEMLDAHRLHAPT‘’’
@@ -30,4 +30,4 @@ _ = models.repurpose(X_repurpose, target, net, drug_ID, target_name)
 #Drug Repurposing Result for 1ERR‘’’
 
 
-#/home/emanskaia/Desktop/descriptastorus/result/repurposing.txt
+#/home/user/descriptastorus/result/repurposing.txt
