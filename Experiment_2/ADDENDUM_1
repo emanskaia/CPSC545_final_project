@@ -1,0 +1,116 @@
+ADDENDUM 1 – TRAINING DETAILS
+
+Detailed information concerning the training configuration and the number of training iterations are comprehensively delineated below. General setting for model training:
+-	Parameter for affinity: kd values
+-	all the kds values were converted to log scale
+
+Training round 1. 
+
+At the first round of model training, the parameters were set as follows: 
+
+-	Drug encoding = SMILES
+-	Target encoding = Amino Acid sequence
+-	cls_hidden_dims = [512],
+-	train_epoch = 20,
+-	LR = 0.001,
+-	batch_size = 128,
+
+The training model parameters obtained at round 1 were: 
+
+Training at Epoch 20 iteration 0
+loss 0.25727. 
+Total time 0.04611 hours
+
+Validation at Epoch 20 with
+loss:2.42420, 
+MSE: 2.33329 , 
+Pearson Correlation: 0.52233 with p-value: 2.54E-19 , 
+Concordance Index: 0.67645
+
+Testing MSE: 1.8871456969397908 , 
+Pearson Correlation: 0.5922994212265742 with p-value: 8.01E-43 , Concordance Index: 0.6878786610440842
+
+Those parameters needed to be improved, so a different training parameters set was applied for training round 2, specifically cis_hidded_dims was updated as follows:
+
+Training round 2. 
+
+-	Drug encoding = SMILES
+-	Target encoding = Amino Acid sequence
+-	cls_hidden_dims = [1024,1024,512],
+-	train_epoch = 20,
+-	LR = 0.001,
+-	batch_size = 128,
+
+The training model parameters obtained at round 2 were: 
+
+Training at Epoch 20 iteration 0 with 
+loss 0.36508. 
+Total time 0.04583 hours
+
+Validation at Epoch 20 with 
+loss:2.37844, 
+MSE: 2.52373 , 
+Pearson Correlation: 0.45980 with p-value: 8.51E-15 , 
+Concordance Index: 0.65109
+
+Testing MSE: 1.8489849866257897 , 
+Pearson Correlation: 0.6127529378400469 with p-value: 1.68E-46 , Concordance Index: 0.7124373476199943
+
+A positive trend in model training was observed, however, the model still was not considered trained well enough for the experiment. Another training round was performed, with epoch size changed to 100. The parameters were set as follows: 
+
+Training round 3. 
+
+-	Drug encoding = SMILES
+-	Target encoding = Amino Acid sequence
+-	cls_hidden_dims = [1024,1024,512],
+-	train_epoch = 20,
+-	LR = 0.001,
+-	batch_size = 128,
+
+The training model parameters obtained at round 3 were: 
+
+Training at Epoch 100 iteration 0 with 
+loss 0.07965. 
+Total time 0.22833 hours
+
+Validation at Epoch 100 with 
+loss:2.31230,
+MSE: 2.31230 , 
+Pearson Correlation: 0.50117 with p-value: 1.10E-17 , 
+Concordance Index: 0.66608
+
+Testing MSE: 2.0113895119166156 , 
+Pearson Correlation: 0.5482213520221538 with p-value: 9.96E-36 , 
+Concordance Index: 0.6817886927495893
+
+
+
+Final training round 4 – repeated training with the same parameters .
+
+-	Drug encoding = SMILES
+-	Target encoding = Amino Acid sequence
+-	cls_hidden_dims = [1024,1024,512],
+-	train_epoch = 20,
+-	LR = 0.001,
+-	batch_size = 128,
+
+The training model parameters obtained were: 
+
+•	MSE = 1.68 – the lowest
+•	Pearson value = 0.65 – the highest
+•	Concordance Index = 73 – the highest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
