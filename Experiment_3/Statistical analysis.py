@@ -1,6 +1,6 @@
 #Correlation analysis
 import scipy.stats as stats
-csv_file_path = '~/home/combined_output_modified.csv'
+csv_file_path = '~/home/result_experiment2.csv' #replace with actual path to your file '~/home/result_experiment1.csv' 
 df = pd.read_csv(csv_file_path)
     x_column = 'Rank_dp'
     y_column = 'Rank_dd'
