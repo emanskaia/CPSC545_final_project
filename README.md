@@ -48,7 +48,11 @@ Scripts for the acquisition and preprocessing of the BindingDB dataset can be fo
 
 ### Experiment 2. A model trained on PDB-Bind dataset
 
-In the second experiment, we procured the training dataset from the open-source PDB Data - A core Dataset. Subsequently, the model was painstakingly trained until optimal performance was achieved. Detailed information concerning the training configuration and the number of training iterations are comprehensively delineated below.
+In the second experiment, I procured the training dataset from the open-source PDB Data - A core Dataset. Subsequently, the model was painstakingly trained until optimal performance was achieved.  The scripts are located here [3.Train_model_on_PDB_dataset](https://github.com/emanskaia/CPSC545_final_project/blob/main/Experiment_2/3.Train_model_on_PDB_dataset.py)
+
+Upon achieving satisfactory results in the training phase, the model was applied to the same dataset [molecules_dataset.rar](https://github.com/emanskaia/CPSC545_final_project/blob/main/Data/molecules_dataset.rar) comprising molecular representations in the form of SMILES and protein structures represented as amino acid sequences. 
+
+Detailed information concerning the training configuration and the number of training iterations are comprehensively delineated in Appendix_A located in [Experiment_2](https://github.com/emanskaia/CPSC545_final_project/tree/main/Experiment_2) folder.
 
 ![image](https://github.com/emanskaia/CPSC545_final_project/assets/139388597/aefee69b-4d94-4da9-bf8f-6f7752e74c85)
 
@@ -58,7 +62,7 @@ As a supplementary aspect of our investigation, I conducted molecular docking si
 
 ### Statistical analysis docking results and results obtained using DeepPurpose
 
-Following the completion of the docking simulations, the generated outcomes underwent thorough statistical assessment. The evaluation encompassed the calculation of Pearson and Spearman correlation coefficients. These coefficients were instrumental in quantifying the correlation between the predicted affinities from the neural network models and the results derived from the docking simulations. The script can be found here (statistical_analysis.py)
+Following the completion of the docking simulations, the generated outcomes underwent thorough statistical assessment. The evaluation encompassed the calculation of Pearson and Spearman correlation coefficients. These coefficients were instrumental in quantifying the correlation between the predicted affinities from the neural network models and the results derived from the docking simulations. The script can be found here [statistical_analysis.py](https://github.com/emanskaia/CPSC545_final_project/blob/main/Experiment_3_Statistical_analysis/Statistical analysis.py)
 
 ## References
 
