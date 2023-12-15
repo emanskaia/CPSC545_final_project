@@ -62,7 +62,7 @@ As a supplementary aspect of our investigation, I conducted molecular docking si
 
 ### Statistical analysis docking results and results obtained using DeepPurpose
 
-Following the completion of the docking simulations, the generated outcomes underwent thorough statistical assessment. The evaluation encompassed the calculation of Pearson and Spearman correlation coefficients. These coefficients were instrumental in quantifying the correlation between the predicted affinities from the neural network models and the results derived from the docking simulations. The script can be found here [statistical_analysis.py](https://github.com/emanskaia/CPSC545_final_project/blob/main/Experiment_3_Statistical_analysis/Statistical analysis.py)
+Following the completion of the docking simulations, the generated outcomes underwent thorough statistical assessment. The evaluation encompassed the calculation of Pearson and Spearman correlation coefficients. These coefficients were instrumental in quantifying the correlation between the predicted affinities from the neural network models and the results derived from the docking simulations. The script can be found here [statistical_analysis.py](https://github.com/emanskaia/CPSC545_final_project/blob/main/Experiment_3_Statistical_analysis/Statistical%20analysis.py)
 
 ## References
 
