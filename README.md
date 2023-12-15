@@ -15,6 +15,16 @@ SKKNSLALSLTADQMVSALLDAEPPILYSEYDPTRPFSEASMMGLLTNLADRELVHMINWAKRVPGFVDLTLHDQVHLLE
 
 Dataset for prediction: 986,970 small molecules randomly sampled from Zinc15 database
 
+## Set up
+
+``` 
+conda create -n DeepPurpose python=3.6
+conda activate DeepPurpose
+conda install -c conda-forge notebook
+pip install git+https://github.com/bp-kelley/descriptastorus 
+pip install DeepPurpose
+```
+
 ### Experiment 1. BindingDB dataset
 In the first experiment, I harnessed a pre-trained model sourced from the DeepPurpose repository to evaluate its performance against a vast collection of one million distinct molecular compounds in conjunction with a specified target protein. The molecular compounds, numbering in the millions, were systematically acquired from the Zinc15 database and selected through a random sampling process conducted in a prior phase of the study. This compiled dataset was denominated as "molecules_dataset."
 The acquisition and processing scripts for the BindingDB dataset can be found here 
