@@ -46,13 +46,13 @@ In the initial phase of Experiment 1, a pre-trained neural network model from th
 
 Scripts for the acquisition and preprocessing of the BindingDB dataset can be found in the folder [Experiment 1](https://github.com/emanskaia/CPSC545_final_project/tree/main/Experiment_1) here: [1_download_and_process_data_BindingDB.py](https://github.com/emanskaia/CPSC545_final_project/blob/main/Experiment_1/1_download_and_process_data_BindingDB.py).  Additionally, the script for executing the pre-trained model is available here [2_Pretrained_model_application.py](https://github.com/emanskaia/CPSC545_final_project/blob/main/Experiment_1/2_Pretrained_model_application.py)
 
-### Experiment 2. A model trained on PDB-Bind dataset
+### Experiment 2. A model trained on PDB_Bind dataset
 
 In the second experiment, I procured the training dataset from the open-source PDB Data - A core Dataset ([PDB_Training_dataset](https://github.com/emanskaia/CPSC545_final_project/blob/main/Experiment_2/PDB_Training_dataset.rar)) located in the [Experiment_2](https://github.com/emanskaia/CPSC545_final_project/tree/main/Experiment_2) folder. Subsequently, the model was painstakingly trained until optimal performance was achieved.  The scripts are located here [3.Train_model_on_PDB_dataset](https://github.com/emanskaia/CPSC545_final_project/blob/main/Experiment_2/3.Train_model_on_PDB_dataset.py)
 
 Upon achieving satisfactory results in the training phase, the model was applied to the same dataset [molecules_dataset.rar](https://github.com/emanskaia/CPSC545_final_project/blob/main/Data/molecules_dataset.rar) comprising molecular representations in the form of SMILES and protein structures represented as amino acid sequences. 
 
-Detailed information concerning the training configuration and the number of training iterations are comprehensively delineated in Appendix_A located in [Experiment_2](https://github.com/emanskaia/CPSC545_final_project/tree/main/Experiment_2) folder.
+Detailed information concerning the training configuration and the number of training iterations are comprehensively delineated in [Appendix_A](https://github.com/emanskaia/CPSC545_final_project/blob/main/Experiment_2/ADDENDUM_1) located in [Experiment_2](https://github.com/emanskaia/CPSC545_final_project/tree/main/Experiment_2) folder.
 
 ![image](https://github.com/emanskaia/CPSC545_final_project/assets/139388597/aefee69b-4d94-4da9-bf8f-6f7752e74c85)
 
